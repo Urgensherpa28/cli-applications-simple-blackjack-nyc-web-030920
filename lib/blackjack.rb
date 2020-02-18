@@ -46,7 +46,7 @@ def hit?(total_hand)
   input = get_user_input
   prompt_user
   if input == "h"
-    total_hand == total_hand + deal_card
+    total_hand 
   elsif 
     input == "s"
     total_hand
