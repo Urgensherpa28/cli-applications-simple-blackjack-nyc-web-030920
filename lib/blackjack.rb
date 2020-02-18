@@ -39,33 +39,33 @@ def initial_round
   return total_hand
 end
 
-def hit?(total_hand)
-  # code hit? here
-  
-  prompt_user
-  input = get_user_input
-  if input == "h"
-    total_hand += deal_card
-  elsif input == "s"
-    total_hand
-  else
-    invalid_command
-  end
-end
-
 # def hit?(total_hand)
+#   # code hit? here
+  
 #   prompt_user
 #   input = get_user_input
-#   while input != "h" && input != "s"
-#     invalid_command
-#     prompt_user
-#     input = get_user_input
-#   end
 #   if input == "h"
 #     total_hand += deal_card
+#   elsif input == "s"
+#     total_hand
+#   else
+#     invalid_command
 #   end
-#   return total_hand
 # end
+
+def hit?(total_hand)
+  prompt_user
+  input = get_user_input
+  while input != "h" && input != "s"
+    invalid_command
+    prompt_user
+    input = get_user_input
+  end
+  if input == "h"
+    total_hand += deal_card
+  end
+  return total_hand
+end
 
 def invalid_command
   # code invalid_command here
