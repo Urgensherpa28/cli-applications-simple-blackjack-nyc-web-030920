@@ -57,6 +57,20 @@ def hit?(total_hand)
   end
 end
 
+def hit?(current_card_value)
+  prompt_user
+  user_input = get_user_input
+  while user_input != "h" && user_input != "s"
+    invalid_command
+    prompt_user
+    user_input = get_user_input
+  end
+  if user_input == "h"
+    current_card_value += deal_card
+  end
+  return current_card_value
+end
+
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
