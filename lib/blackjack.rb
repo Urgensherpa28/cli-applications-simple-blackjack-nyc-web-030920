@@ -56,8 +56,6 @@ end
 def invalid_command(total_hand)
   # code invalid_command here
   puts "Please enter a valid command"
-  prompt_user
-  get_user_input
 end
 
 
