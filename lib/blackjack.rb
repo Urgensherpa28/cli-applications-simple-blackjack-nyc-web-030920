@@ -54,7 +54,6 @@ end
 
 def invalid_command
   # code invalid_command here
-  puts "Type 'h' to hit or 's' to stay"
   puts "Please enter a valid command"
 end
 
