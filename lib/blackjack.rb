@@ -79,9 +79,6 @@ end
 
 def runner
   # code runner here
-  get_user_input
-  welcome
-  initial_round
-  hit?
+  welcome 
 end
     
