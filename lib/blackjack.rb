@@ -59,7 +59,7 @@ def hit?(total_hand)
   while input != "h" && input != "s"
     invalid_command
     prompt_user
-    input = get_user_input
+    # input = get_user_input
   end
   if input == "h"
     total_hand += deal_card
