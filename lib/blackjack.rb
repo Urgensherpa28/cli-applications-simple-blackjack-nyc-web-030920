@@ -46,8 +46,8 @@ def hit?(total_hand)
   elsif  
     input == "s"
     total_hand
-  else 
-    invalid_command(msg)
+  elsif input != "h" || input != "s"
+    invalid_command
   end
 end
 
