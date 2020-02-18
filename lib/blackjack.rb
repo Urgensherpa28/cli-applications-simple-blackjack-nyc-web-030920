@@ -51,6 +51,7 @@ def hit?(total_hand)
   else
     invalid_command
   end
+  prompt_user
 end
 
 # def hit?(total_hand)
