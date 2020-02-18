@@ -57,15 +57,15 @@ def hit?(total_hand)
   end
 end
 
-def hit?(current_card_value)
+def hit?(total_hand)
   prompt_user
-  user_input = get_user_input
-  while user_input != "h" && user_input != "s"
+  input = get_user_input
+  while input != "h" && input != "s"
     invalid_command
     prompt_user
-    user_input = get_user_input
+    input = get_user_input
   end
-  if user_input == "h"
+  if input == "h"
     current_card_value += deal_card
   end
   return current_card_value
