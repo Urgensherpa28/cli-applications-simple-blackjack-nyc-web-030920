@@ -48,7 +48,7 @@ def hit?(total_hand)
     total_hand
     # binding.pry
   else
-    puts "Type 'h' to hit or 's' to stay"
+    puts "Please enter a valid command"
   end
 end
 
