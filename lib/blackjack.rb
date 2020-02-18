@@ -40,8 +40,8 @@ end
 def hit?(total_hand)
   # code hit? here
   prompt_user
-  input = get_user_input
-  if input == "h"
+  user_input = get_user_input
+  if user_input == "h"
     total_hand += deal_card
   elsif 
     input == "s"
