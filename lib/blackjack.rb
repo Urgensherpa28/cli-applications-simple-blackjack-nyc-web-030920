@@ -41,6 +41,7 @@ def hit?(total_hand)
   # code hit? here
   prompt_user
   input = get_user_input
+  binding.pry
   if input == "h"
     total_hand += deal_card
   elsif 
@@ -57,7 +58,6 @@ def invalid_command
   puts "Please enter a valid command"
   prompt_user
   get_user_input
-  binding.pry
 end
 
 
