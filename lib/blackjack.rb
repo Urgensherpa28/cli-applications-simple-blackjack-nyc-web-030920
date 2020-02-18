@@ -42,6 +42,7 @@ end
 def hit?(total_hand)
   # code hit? here
   prompt_user
+  total_hand 
   input = get_user_input
   if input == "h"
     total_hand += deal_card
