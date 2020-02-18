@@ -49,11 +49,11 @@ def hit?(total_hand)
     input == "s"
     total_hand
   else
-    invalid_command
+    invalid_command(total_hand)
   end
 end
 
-def invalid_command
+def invalid_command(total_hand)
   # code invalid_command here
   puts "Please enter a valid command"
   prompt_user
