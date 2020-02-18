@@ -66,9 +66,9 @@ def hit?(total_hand)
     input = get_user_input
   end
   if input == "h"
-    current_card_value += deal_card
+    total_hand += deal_card
   end
-  return current_card_value
+  return total_hand
 end
 
 def invalid_command
