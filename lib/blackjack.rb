@@ -49,7 +49,7 @@ def hit?(total_hand)
   elsif input == "s"
     total_hand
   else
-    while invalid_command
+    invalid_command
   end
 end
 
