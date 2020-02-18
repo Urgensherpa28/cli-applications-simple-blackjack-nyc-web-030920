@@ -80,5 +80,6 @@ end
 def runner
   # code runner here
   welcome 
+  binding.pry
 end
     
