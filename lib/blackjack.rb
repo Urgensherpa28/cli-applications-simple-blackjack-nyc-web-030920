@@ -48,7 +48,6 @@ def hit?(total_hand)
     total_hand += deal_card
   elsif input == "s"
     total_hand
-    prompt_user
   else
     invalid_command
   end
