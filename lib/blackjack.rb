@@ -39,7 +39,7 @@ def initial_round
   return total_hand
 end
 
-def hit?(total_hand)
+def hit?
   # code hit? here
   prompt_user
   input = get_user_input
@@ -55,8 +55,8 @@ end
 
 def invalid_command
   # code invalid_command here
-  prompt_user
   puts "Please enter a valid command"
+  hit?
 end
 
 
