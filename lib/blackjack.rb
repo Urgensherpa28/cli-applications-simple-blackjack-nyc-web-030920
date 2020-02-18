@@ -46,6 +46,7 @@ def hit?(total_hand)
   elsif 
     input == "s"
     total_hand
+    binding.pry
   else
     invalid_command
   end
@@ -56,7 +57,7 @@ def invalid_command
   puts "Please enter a valid command"
 end
 
-binding.pry
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
