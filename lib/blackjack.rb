@@ -41,6 +41,7 @@ end
 
 def hit?(total_hand)
   # code hit? here
+  invalid_command
   prompt_user
   input = get_user_input
   if input == "h"
