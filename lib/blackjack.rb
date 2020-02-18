@@ -46,7 +46,7 @@ def hit?(total_hand)
   elsif 
     user_input == "s"
     total_hand
-    binding.pry
+    # binding.pry
   else
     invalid_command
   end
