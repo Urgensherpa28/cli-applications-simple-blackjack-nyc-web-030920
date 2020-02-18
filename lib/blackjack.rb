@@ -48,7 +48,7 @@ def hit?(total_hand)
     total_hand
     # binding.pry
   else
-    invalid_command
+    puts "Type 'h' to hit or 's' to stay"
   end
 end
 
