@@ -79,8 +79,8 @@ end
 
 def runner
   # code runner here
-  welcome
-  initial_round
-  hit?
+  return welcome
+  return initial_round
+  return hit?
 end
     
