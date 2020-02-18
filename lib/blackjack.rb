@@ -50,6 +50,7 @@ def hit?(total_hand)
     total_hand
   else
     invalid_command
+    binding.pry
   end
 end
 
