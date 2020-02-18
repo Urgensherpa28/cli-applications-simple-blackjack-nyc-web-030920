@@ -51,10 +51,9 @@ def hit?(total_hand)
   end
 end
 
-def invalid_command(msg)
+def invalid_command
   # code invalid_command here
-  msg = "Please enter a valid command"
-  puts msg
+  puts "Please enter a valid command"
 end
 
 
