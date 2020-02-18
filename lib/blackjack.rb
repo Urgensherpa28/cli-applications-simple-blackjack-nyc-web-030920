@@ -44,7 +44,7 @@ def hit?(total_hand)
   if user_input == "h"
     total_hand += deal_card
   elsif 
-    input == "s"
+    user_input == "s"
     total_hand
     binding.pry
   else
